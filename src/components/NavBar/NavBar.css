@@ -1,0 +1,53 @@
+/* NavBar.css */
+.nav {
+    padding: 44px 0 35px 102px;
+    display: flex;
+    column-gap: 230px;
+}
+
+.nav > img {
+    width: 88px;
+    height: 63px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 42px;
+    margin-left: 320px;
+}
+
+.menu > p {
+    color: #000;
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2.88px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search > input {
+    width: 200px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.34);
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 20px;
+    background: #F5F5F5;
+    padding: 11px 217px 10px 18px;
+    border: none;
+    outline: none;
+}
+
+.search > input:hover {
+    outline: none;
+    border: none;
+}
+
+.search > .bi {
+    margin-left: -35px;
+}
