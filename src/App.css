@@ -7,3 +7,81 @@
     height: 14px;
     background: #D9D9D9;
 }
+
+/* MainImage.css */
+.mainimage {
+    position: relative;
+}
+
+.mainpagecenter {
+    width: 1920px;
+    height: 718px;
+}
+
+.sorting {
+    position: absolute;
+    margin-top: -243px;
+    margin-left: 360px;
+}
+
+.blue {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.blueex {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0 15px 0;
+}
+
+.buybutton {
+    display: flex;
+    align-items: center;
+}
+
+.buybuttonex {
+    width: 136px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 45px;
+}
+
+.buybutton > .bi {
+    margin-left: -38px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+
+.borderbottom {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.scrollborderbottom_white {
+    width: 1176px;
+    height: 6px;
+    border-radius: 8px;
+    background: #EEE;
+    margin-top: 70px;
+    position: relative;
+}
+
+.scrollborderbottom_black {
+    width: 588px;
+    height: 6px;
+    border-radius: 8px;
+    background: #000;
+    margin-top: 70px;
+    margin-left: -590px;
+    position: absolute;
+}
