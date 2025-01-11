@@ -65,6 +65,8 @@
     width: 1920px;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
 }
 
 .scrollborderbottom_white {
@@ -72,7 +74,6 @@
     height: 6px;
     border-radius: 8px;
     background: #EEE;
-    margin-top: 70px;
     position: relative;
 }
 
@@ -81,7 +82,6 @@
     height: 6px;
     border-radius: 8px;
     background: #000;
-    margin-top: 70px;
     margin-left: -590px;
     position: absolute;
 }
