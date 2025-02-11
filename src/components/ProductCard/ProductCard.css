@@ -1,0 +1,18 @@
+.productcard {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .productcard img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+  }
+  

@@ -1,6 +1,16 @@
 import React from "react";
 import NavBar from "./components/NavBar/NavBar";
+import ProductCard from "./components/ProductCard/ProductCard";
 import "./App.css";
+
+const products = [
+  {name: "Samos Shoes", category: "Shoes", price: 99000, image: "/image/samosshoes.png"},
+  {name: "R71", category: "Shoes", price: 107000, image: "/image/r72shoes.png"},
+  {name: "STADT", category: "Shoes", price: 10000, image: "/image/stadtshoes.png"},
+  {name: "Samoa Shoes", category: "Shoes", price: 104000, image: "/image/samoashoes.png"},
+  {name: "Samos Shoes", category: "Shoes", price: 99000, image: "/image/samosshoes.png"},
+  {name: "R71", category: "Shoes", price: 107000, image: "/image/r72shoes.png"}
+]
 
 function App() {
   return (
@@ -33,6 +43,22 @@ function App() {
       <div className="borderbottom">
         <div className="scrollborderbottom_white"></div>
         <div className="scrollborderbottom_black"></div>
+      </div>
+      <div className="trenddiv">
+        <p className="trend">TREND</p>
+        <div className="product-list">
+          {products.map((product, index) => {
+            return (
+              <ProductCard
+                key={index}
+                name={product.name}
+                category={product.category}
+                price={product.price}
+                image={product.image}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

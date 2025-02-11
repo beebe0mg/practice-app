@@ -85,3 +85,12 @@
     margin-left: -590px;
     position: absolute;
 }
+
+.trend {
+    color: #000;
+    font-family: 'Pretendard';
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 53px;
+    margin-left: 360px;
+}
