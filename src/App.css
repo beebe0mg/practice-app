@@ -86,11 +86,14 @@
     position: absolute;
 }
 
+.trenddiv {
+    margin-bottom: 200px;
+}
+
 .trend {
     color: #000;
     font-family: 'Pretendard';
     font-size: 36px;
     font-weight: 600;
-    margin-top: 53px;
     margin-left: 360px;
 }

@@ -9,7 +9,8 @@ const products = [
   {name: "STADT", category: "Shoes", price: 10000, image: "/image/stadtshoes.png"},
   {name: "Samoa Shoes", category: "Shoes", price: 104000, image: "/image/samoashoes.png"},
   {name: "Samos Shoes", category: "Shoes", price: 99000, image: "/image/samosshoes.png"},
-  {name: "R71", category: "Shoes", price: 107000, image: "/image/r72shoes.png"}
+  {name: "R71", category: "Shoes", price: 107000, image: "/image/r72shoes.png"},
+  {name: "STADT", category: "Shoes", price: 10000, image: "/image/stadtshoes.png"}
 ]
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
                 category={product.category}
                 price={product.price}
                 image={product.image}
+                customClass={`product-${index}`}
               />
             );
           })}
