@@ -1,0 +1,43 @@
+.adicolor-list {
+    display: flex;
+    align-items: center;
+    margin-left: 360px;
+    gap: 20px;
+}
+
+.adicolored > p {
+    padding-left: 10px;
+}
+
+.aname {
+    color: #000;
+    font-family: "Pretendard";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.asub {
+    color: #9E9E9E;
+    font-family: "Pretendard";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.abuy {
+    color: #000;
+    font-family: "Pretendard";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.adicolored {
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 3px 20.5px 0px rgba(0, 0, 0, 0.04);
+}

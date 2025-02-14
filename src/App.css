@@ -87,13 +87,17 @@
 }
 
 .trenddiv {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
-.trend {
+.adicolordiv {
+    margin-bottom: 100px;
+}
+
+.trend, .adicolor {
+    margin-left: 360px;
     color: #000;
     font-family: 'Pretendard';
     font-size: 36px;
     font-weight: 600;
-    margin-left: 360px;
 }
